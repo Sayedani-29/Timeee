@@ -1,0 +1,118 @@
+/* Reset & Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-image 0.5s ease-in-out;
+}
+
+/* Background images for themes */
+body.day {
+  background-image: url('day.jpeg'); /* Replace with your own day image */
+}
+
+body.night {
+  background-image: url('night.jpeg'); /* Replace with your own night image */
+}
+
+.container {
+  background-color: rgba(0, 50, 20, 0.7);
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+  width: 400px;
+  color: white;
+  position: relative;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+}
+
+.theme-toggle button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.theme-toggle button:hover {
+  background: white;
+  color: black;
+}
+
+/* Timer */
+.timer-box {
+  margin: 40px 0 20px;
+}
+
+.timer-label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timer {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.reset,
+.stop {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.username {
+  font-size: 12px;
+}
+
+.icon {
+  background: pink;
+  color: black;
+  padding: 8px;
+  border-radius: 50%;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Timieee</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="day"> <!-- Default is day mode -->
+  <div class="container">
+    <header>
+      <div class="title">Timieee</div>
+      <div class="theme-toggle">
+        <button onclick="setTheme('day')">Day</button>
+        <button onclick="setTheme('night')">Night</button>
+      </div>
+    </header>
+
+    <div class="timer-box">
+      <p class="timer-label">Timer</p>
+      <div class="timer" id="timer">25 : 00</div>
+    </div>
+
+    <div class="controls">
+      <button class="reset" onclick="resetTimer()">Reset</button>
+      <button class="stop" onclick="toggleTimer()" id="stopBtn">Start</button>
+    </div>
+
+    <footer>
+      Copyright &copy; | All rights reserved  
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
