@@ -1,55 +1,53 @@
-# 🍽️ Meal Planner
+# ⏱️ Timeee
 
-A personal wellness and productivity web app to help you organize daily meals, track food expenses, generate recipes, and share food experiences through a blog.
+A clean, distraction-free Pomodoro timer to help you stay focused during study or work sessions. Inspired by the Pomodoro technique — 25 minutes of deep focus, one click to start.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-red?style=for-the-badge)](https://meal-planner-phi-five.vercel.app)
-![HTML](https://img.shields.io/badge/HTML-100%25-orange?style=flat-square&logo=html5)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-red?style=for-the-badge)](https://timeee-two.vercel.app)
+![HTML](https://img.shields.io/badge/HTML-CSS-JS-blueviolet?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 ---
 
 ## ✨ Features
 
-- **📅 Meal Planning** — Schedule breakfast, lunch, and dinner by date
-- **🧾 Expense Tracker** — Log ingredients with prices and see daily & monthly totals in ₹
-- **🍳 Recipe Generator** — Browse and generate meal recipes
-- **📝 Blog** — Write and read food experience posts
-- **🔐 Auth Pages** — Login and signup UI
+- **⏳ 25-minute countdown** — Classic Pomodoro session length
+- **▶️ Start / Reset** — Simple one-click controls
+- **🌞 Day Mode** — Clean light theme for daytime use
+- **🌙 Night Mode** — Dark theme for late-night sessions
+- **📱 Responsive layout** — Works on desktop and mobile
 
 ---
 
 ## 📸 Screenshots
 
->![Meal Planner Screenshot](./screenshot.png)
+> _Add screenshots of Day and Night mode here:_
+> `![Day Mode](./day.jpeg)`
+> `![Night Mode](./night.jpeg)`
 
 ---
 
 ## 🚀 Getting Started
 
-No installation needed — it runs entirely in the browser.
+No installation needed.
 
 ```bash
-git clone https://github.com/Sayedani-29/Meal-Planner.git
-cd Meal-Planner
+git clone https://github.com/Sayedani-29/Timeee.git
+cd Timeee
 ```
 
-Then open `index.html` in your browser. That's it.
+Then open `index.html` in your browser.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-Meal-Planner/
-├── index.html        # Landing / home page
-├── plan.html         # Meal planning page
-├── expense.html      # Expense tracker
-├── recipe.html       # Recipe generator
-├── blog_index.html   # Blog listing page
-├── blog_post.html    # Individual blog post
-├── log_in.html       # Login page
-├── signup.html       # Signup page
-└── pancake.img       # App image asset
+Timeee/
+├── index.html    # App markup
+├── style.css     # All styling including day/night themes
+├── script.js     # Timer logic and theme switching
+├── day.jpeg      # Day mode background image
+└── night.jpeg    # Night mode background image
 ```
 
 ---
@@ -57,17 +55,18 @@ Meal-Planner/
 ## 🛠️ Tech Stack
 
 - HTML5
-- CSS3 (inline styles)
+- CSS3
 - Vanilla JavaScript
 
 ---
 
 ## 🔮 Planned Improvements
 
-- [ ] Add localStorage so data persists across sessions
-- [ ] Fix backend integration (replace `.php` fetch calls)
-- [ ] Make fully mobile responsive
-- [ ] Add working authentication
+- [ ] Add Pause / Resume (not just Start / Reset)
+- [ ] Play a sound when the timer reaches 00:00
+- [ ] Add short break (5 min) and long break (15 min) modes
+- [ ] Show session count (Pomodoros completed)
+- [ ] Custom timer duration input
 
 ---
 
