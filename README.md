@@ -22,7 +22,7 @@ A clean, distraction-free Pomodoro timer to help you stay focused during study o
 
 ![Day Mode](./day.jpeg)
 
-[Night Mode](./nigth.jpeg)
+[Night Mode](./night.jpeg)
 
 ---
 
