@@ -19,10 +19,8 @@ A clean, distraction-free Pomodoro timer to help you stay focused during study o
 ---
 
 ## 📸 Screenshots
-
-> _Add screenshots of Day and Night mode here:_
-> `![Day Mode](./day.jpeg)`
-> `![Night Mode](./night.jpeg)`
+![Day Mode](./day.jpeg)
+[Night Mode](./night.jpeg)
 
 ---
 
