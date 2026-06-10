@@ -22,7 +22,7 @@ A clean, distraction-free Pomodoro timer to help you stay focused during study o
 
 ![Day Mode](./day.jpeg)
 
-[Night Mode](./night.jpeg)
+![Night Mode](./night.jpeg)
 
 ---
 
@@ -69,10 +69,9 @@ Timeee/
 - [ ] Custom timer duration input
 
 ---
-
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
+***© 2024 Sayedani-29. All rights reserved. This project and its contents may not be reproduced, distributed, or used without explicit permission from the author.***
 
 ---
 
